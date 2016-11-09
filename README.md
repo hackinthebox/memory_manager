@@ -17,8 +17,8 @@ These 16 bits are divided into (1) an 8-bit page number and (2) 8-bit page offse
 Other specifics include the following:
 
 2^8 entries in the page table
-Page size of 2 8 bytes
+Page size of 2^8 bytes
 16 entries in the TLB
-Frame size of 2 8 bytes
+Frame size of 2^8 bytes
 256 frames
 Physical memory of 65,536 bytes (256 frames × 256-byte frame size)
